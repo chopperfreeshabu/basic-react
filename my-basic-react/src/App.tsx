@@ -1,9 +1,11 @@
+import TodoList from "./components/ToDoList";
+
 function App() {
   return (
-    <>
-      <h1>My First React</h1>
-      <p>รีแอคจ๋า พรี่มาแล้ว</p>
-    </>
+    <div>
+      <h1>Homework 1</h1>
+      <TodoList />
+    </div>
   );
 }
 
